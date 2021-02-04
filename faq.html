@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Ask Questions</title>
+    <link rel="shortcut icon" href="./favicon.png">
+    <link rel="stylesheet" href="./Sticky.css">
+
+    <style>
+    *{
+    text-decoration: none;
+}
+
+div.header{
+    background-color:white;
+    height: 60px;
+    margin-top: -15px;
+    width: 100%;
+    max-width: 1330;
+    position: sticky;
+
+}
+nav{
+    position: sticky;
+}
+.logo{
+    padding-left: 140px ;
+    padding-right: 60px;
+    height: 35px;
+    padding-top: 15px;
+    float: left;
+}
+ul.nav li{
+    list-style-type: none;
+    float: left;
+    padding-top: 23px;
+    padding-left: 50px;
+    color: #50658e;
+    font-weight: bolder;
+}
+.color:link{
+    color: #50658e;
+}
+.color:active{
+    color: #2a81ea;
+}
+.color:visited{
+    color: #50658e;
+     }
+.color:hover{
+    color: #2a81ea;
+}
+#white:link, #white:active , #white:visited , #white:hover{
+    color: white;
+}
+
+
+ul.dos li{
+    list-style-type: none;
+    float: left;
+    left: 50px;
+    font-weight: bolder;
+    color: #f7f9fe;
+    background-color: #2a81ea;
+    text-align: center;
+    border: 15px solid #2a81ea;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+div.ele3{
+    background-image: url("./shape-c.png");
+    background-color: #151c2e;
+    color:#a1adce;
+}
+.padding li{
+    padding-bottom: 12px;
+}
+#body{
+    margin-left: 130px;
+    font-size: large;
+}
+#contact{
+    float: right;
+    color: #50658e;
+    background-color: rgb(255, 255, 255);
+    margin-right: 200px;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px grey;
+}
+input:focus{
+    border: 2px solid #2a81ea;
+    box-shadow: -2px 2px 15px #2a81ea;
+    }
+    select:focus{
+    border: 2px solid #2a81ea;
+    box-shadow: -2px 2px 15px #2a81ea;
+    }
+    textarea:focus{
+    border: 2px solid #2a81ea;
+    box-shadow: -2px 2px 15px #2a81ea;
+    }
+input,select{
+    margin: 6px;
+    border-radius: .25rem;
+}
+textarea{
+    resize: none;
+    margin: 6px;
+    border-radius: .25rem;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+input[type="submit"]{
+    width: 140px;
+    height: 50px;
+    background:#2a81ea;
+    color: white;
+    border-radius: 25px;
+    font-size: larger;
+}
+.col:link{
+    color:#a1adce;
+}
+.col:active{
+    color:#a1adce;
+}
+.col:visited{
+    color:#a1adce;
+     }
+.col:hover{
+    color: #2a81ea;
+}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <nav id="stick">
+            <a href="./project.html"><img src="./main-logo.png" class="logo"></a>
+    <ul class="nav">
+        <li><a class="color" href="./project.html">Home</a></li>
+        <li><a class="color" href="./s.htm">Symptoms</a></li>
+        <li><a class="color" href="./prevention.html">Prevention</a></li>
+        <li><a class="color" href="./faq.html">FAQ</a></li>
+        <li><a class="color" href="#news">News</a></li>
+    </ul>
+    <ul class="dos">
+        <li><a id="white" href="./dodont.html">Do & Don`t</a></li>
+    </ul>
+</nav>
+</div>
+<div id="body">
+    <div id="contact">
+        <p style="height: 42px;width:525px;font-size: 30px;font-weight: 600;">Get In Touch</p>
+        <form onsubmit="check()" on>
+            <input type="text" placeholder="Your Name" required id="name" minlength="3" style="height: 46px;width:525px;"><br>
+            <input type="text" placeholder="Your Email" required style="height: 46px;width:252px;">
+            <input type="text" id="phone"  placeholder="Your Phone" required maxlength="10" minlength="10" style="height: 46px;width:252px;"><br>
+            <textarea placeholder="Your Message" id="email" required style="height: 120px;width:530px;"></textarea><br>
+            &ensp;Have you got any Symptoms?&emsp;&emsp;&emsp;&emsp;&emsp;Age Range<br>
+            <select style="width: 298px;height: 46px;">
+                <option>Yes, i got all the Symptoms</option>
+                <option>Yes, i got few of them</option>
+                <option>Yes, i got one of them</option>
+                <option>No, i dont</option>
+            </select>
+            <select style="width: 208px;height: 46px;">
+                <option>7-19 years</option>
+                <option>20-30 years</option>
+                <option>31-50 years</option>
+                <option>Above 50 years</option>
+            </select><br>
+            <input type="submit" value="Submit" >
+        </form>
+        
+    </div>
+    <p style="font-size: 20px;color: red;">Contact Us</p>
+    <span style="font-size: 40px;color: black;">Question About Covid-19?</span>
+    <p style="width: 445px;height: 63px;">If you have any query about coronavirus or you have a health concern, you can contact via our helpline 111 or emergency contact number. You can also contact by submitting form.</p>
+    <p style="color: red;"><span style="background: red;color: white;border: 3px solid red;border-radius: 5%;padding:5px;text-transform: uppercase;">emergency</span>&emsp;Coronavirus Helpline</p>
+    <p style="font-size:2rem;color: #50658e;">+91-11-23978046</p>
+    <p style="font-size:medium;color: #50658e;font-weight: bolder;">24x7 Medical Help:</p>
+    <p>
+        <ul style="list-style-type: none;color: #50658e;">
+            <li>Phone &emsp; : 1-800-911-3939</li>
+            <li>Phone &emsp; : 1-800-911-3939</li>
+            <li>Toll Free : 1-800-911-9999</li>
+            <li>Email &emsp; : ncov2019@website.com</li>
+        </ul>
+    </p>
+    <p style="width: 445px;height: 63px;color: #50658e;">For more information and the goverment’s action
+        plan go to who.int & nhs.uk</p>
+        
+</div>
+<div class="ele3">
+    <div style="float: left;">
+    <img src="logo-white2x.png" height="40" width="140" style="margin-left: 130px;margin-top: 100px;"><br>
+    
+    
+            <p style="width: 270px; height: 94px;font-size: 16px;margin-left: 130px;">This website is for health information and advice about coronavirus (COVID-19), how to prevent and protect yourself from disease.</p>
+            <p style="width: 270px; height: 94px;font-size: 16px;margin-left: 130px;">Learn about the government response to coronavirus on <a class="col" href="https://www.mohfw.gov.in/">GOV.IN.</a></p>
+        
+    </div>
+    <div style="float: left;">
+        <p style="color: white;margin-left: 150px;font-size:20px;padding-top: 90px;">Quick Link</p>
+        <ul style="list-style-type: none;margin-left: 110px" class="padding">
+            <li><a class="col" href="#">Home</a></li>
+            <li><a class="col" href="./s.htm">Symptoms</a></li>
+            <li><a class="col" href="./prevention.html">Prevention</a></li>
+            <li><a class="col" href="./faq.html">FAQ</a></li>
+            <li><a class="col" href="#news">News</a></li>
+        </ul>
+    </div>
+    <div style="float: left;" >
+        <p style="color: white;margin-left: 150px;font-size:20px;padding-top: 90px;">Helpfull link</p>
+        <ul style="list-style-type: none;margin-left: 110px" class="padding">
+            <li><a class="col" href="https://www.cdc.gov/coronavirus/2019-ncov/hcp/index.html">Healthcare Professionals</a></li>
+            <li><a class="col" href="https://www.cdc.gov/coronavirus/2019-ncov/hcp/steps-to-prepare.html">Healthcare Facilities</a></li>
+            <li><a class="col" href="https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/older-adults.html">Older Adults & Medical Conditions</a></li>
+            <li><a class="col" href="https://www.medlife.com/blog/coronavirus-tips-to-protect-yourself-your-family-and-community/">Repair your Family</a></li>
+        </ul>
+    </div>
+    <div style="float: left;">
+        <p style="color: white;margin-left: 60px;font-size:20px;padding-top: 90px;">Important Link</p>
+        <ul style="list-style-type: none;margin-left: 20px" class="padding">
+            <li><a class="col" href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019?gclid=CjwKCAjw1ej5BRBhEiwAfHyh1M0EyoGXndXj5BgMGp1OTnuDOlEVkgv-ESJR6WBHxNOdcf9lTbEsNBoCdMgQAvD_BwE">WHO Website</a></li>
+            <li><a class="col" href="https://www.cdc.gov/coronavirus/2019-nCoV/index.html">CDC Website</a></li>
+            <li><a class="col" href="https://111.nhs.uk/covid-19/">NHS Website</a></li>
+            <li><a class="col" href="https://www.health.harvard.edu/diseases-and-conditions/covid-19-basics">Harvard Website</a></li>
+        </ul>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+</body>
+</html>
+<script>
+    function check() {
+    var phone=document.getElementById("phone").value;
+    var regx=/[6-9]\d{9}/;
+    if(regx.test(phone)){
+        document.getElementById("phone").style.borderColor="green";
+    }
+    else{
+        alert("Invalid Mobile Number");
+    }
+    // alert("Your Details Got Submited");
+    var name=document.getElementById("name").value;
+    if(name.trim()==""){
+        alert("Enter a valid Name");
+    }
+    var email=document.getElementById("email").value;
+    var regxe=/^([a-z 0-9\.-]+)@([a-z0-9-]+).com$/;
+    if(regxe.test(email)){
+        
+    }
+    else{
+        alert("Invalid Email Adrress");
+    }
+    }
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("stick");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>

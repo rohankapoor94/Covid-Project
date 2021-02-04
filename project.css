@@ -1,0 +1,197 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    text-decoration: none;
+}
+
+div.header{
+    background-color:white;
+    height: 60px;
+    margin-top: -15px;
+    width: 100%;
+    max-width: 1330;
+    position: sticky;
+
+}
+nav{
+    position: sticky;
+}
+.logo{
+    padding-left: 140px ;
+    padding-right: 60px;
+    height: 35px;
+    padding-top: 15px;
+    float: left;
+}
+ul.nav li{
+    list-style-type: none;
+    float: left;
+    padding-top: 23px;
+    padding-left: 50px;
+    color: #50658e;
+    font-weight: bolder;
+}
+.color:link{
+    color: #50658e;
+}
+.color:active{
+    color: #2a81ea;
+}
+.color:visited{
+    color: #50658e;
+     }
+.color:hover{
+    color: #2a81ea;
+}
+.white:link, .white:active , .white:visited , .white:hover{
+    color: white;
+}
+
+
+ul.dos li{
+    list-style-type: none;
+    float: left;
+    left: 50px;
+    font-weight: bolder;
+    color: #f7f9fe;
+    background-color: #2a81ea;
+    text-align: center;
+    border: 15px solid #2a81ea;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.ele1{
+    background-color:#f7f9fe;
+    background-image: url("./shape-c.png");
+    margin-top: 20px;
+
+
+}
+div.ele1 span.corona{
+    padding-left: 150px;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: Nioicon;
+    font-stretch: condensed;
+    letter-spacing: 1px;
+    color: #50658e;
+    float: left;
+}
+div.ele1 span.covid{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Nioicon;
+    color:red;
+}
+div.ele1 span.virus{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Nioicon;
+    color:#50658e;
+}
+div.ele1 img{
+    float: right;
+    width: 700px;
+    height: 600px;
+}
+div.ele1 p{
+    font-size: larger;
+    padding-left: 150px;
+    font-weight: lighter;
+    line-height: 2em;
+    font-family: cursive;
+    padding-right: 100px;
+}
+div.ele1 span.protect{
+    float: left;
+    left: 50px;
+    font-weight: bolder;
+    color: #f7f9fe;
+    background-color: #2a81ea;
+    text-align: center;
+    border: 15px solid #2a81ea;
+    border-radius: 25px;
+    margin-left: 150px;
+    float: left;
+}
+div.ele1 span.about{
+    float: left;
+    left: 50px;
+    font-weight: bolder;
+    color: #f7f9fe;
+    background-color: #2a81ea;
+    text-align: center;
+    border: 15px solid #2a81ea;
+    border-radius: 25px;
+    margin-left: 100px;
+    float: left;
+}
+.ele2{
+    background: #f7f9fe;
+}
+div.a{
+    background-color: white;
+    height: 400px;
+    width: 350px;
+    margin-left: 180px;
+    border: 2px solid white;
+    border-radius: 10px;
+    float: left;
+}
+.in{
+    color:#465675;
+    font-size: larger;
+    padding-left: 35px;
+}   
+   
+.ins{
+    color:#3d4b69;
+    padding: 20px;
+}
+div.b{
+    background-color: white;
+    height: 400px;
+    width: 350px;
+    margin-left: 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+    float: left;
+}
+div.c{
+    background-color: white;
+    height: 400px;
+    width: 350px;
+    margin-left: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    float: left;
+}
+div.ele3{
+    background-image: url("./shape-c.png");
+    background-color: #151c2e;
+    color:#a1adce;
+}
+.padding li{
+    padding-bottom: 12px;
+}
+.col:link{
+    color:#a1adce;
+}
+.col:active{
+    color:#a1adce;
+}
+.col:visited{
+    color:#a1adce;
+     }
+.col:hover{
+    color: #2a81ea;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    
+  }
